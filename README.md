@@ -23,21 +23,21 @@ The MCMC simulated bed elevation of Tussebreen. The grounding line can be seen (
 The MCMC mass flux residual (left) and the Bedmachine mass flux residual (right). The grounding line can be seen (black).
 
 ## Environment:
-A conda environment was used in conjunction with the gstatsMCMC.yml file. 
+A conda environment was used in conjunction with the `gstatsMCMC.yml` file. 
 
 ### To make the new enviroment:
-conda env create -f gstatsMCMC.yml
+conda env create `-f gstatsMCMC.yml`
 ### To activate:
-conda activate gstatsMCMC
+conda activate `gstatsMCMC`
 
 
 ## Usage:
 1. Make the environment.
 2. Crop the region. For Tussebreen, xmin = 536250 xmax = 897750 and ymin = 1717250 ymax = 2151250 in polar stereographic coordinates.
-3. Run the T1_LoadData.ipynb notebook, make sure you use the cropped region here.
-4. Run T2_StatisticalAnalysis.ipynb notebook. This step gives a lot of important data including; normalized bed elevation data, the semivariogram, and the initial Sequential Gaussian Simulated bed topography.
-5. Run T3_LargeScaleChain.ipynb notebook. This step is the start of Markov Chain Monte Carlo, as it breaks the region up into large blocked chunks resimulating the chunk with the constraint of minimizing the massflux residual. Each iteration is then accepted or not. For Tussebreen this step was repeated, so far, 3.5 million times.
-6. Run T4_SmallScaleChain.ipynb notebook. This works the same as T3_LargeScaleChain.ipynb but on a smaller scale. The goal here is to end with a mass flux residual as close to zero as possible, aiming for at least less than Bedmachine.
+3. Run the `T1_LoadData.ipynb` notebook, make sure you use the cropped region here.
+4. Run `T2_StatisticalAnalysis.ipynb` notebook. This step gives a lot of important data including; normalized bed elevation data, the semivariogram, and the initial Sequential Gaussian Simulated bed topography.
+5. Run `T3_LargeScaleChain.ipynb` notebook. This step is the start of Markov Chain Monte Carlo, as it breaks the region up into large blocked chunks resimulating the chunk with the constraint of minimizing the massflux residual. Each iteration is then accepted or not. For Tussebreen this step was repeated, so far, 3.5 million times.
+6. Run `T4_SmallScaleChain.ipynb` notebook. This works the same as `T3_LargeScaleChain.ipynb` but on a smaller scale. The goal here is to end with a mass flux residual as close to zero as possible, aiming for at least less than Bedmachine.
 
 ## Refrences:
 Shao, N., MacKie, E., Field, M., & McCormack, F. (2025). A Markov chain Monte Carlo approach for geostatistically simulating mass-conserving subglacial topography. EarthArXiv. https://doi.org/10.31223/X5SB2R
