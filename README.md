@@ -26,9 +26,9 @@ The MCMC mass flux residual (left) and the Bedmachine mass flux residual (right)
 A conda environment was used in conjunction with the `gstatsMCMC.yml` file. 
 
 ### To make the new enviroment:
-conda env create `-f gstatsMCMC.yml`
+`conda env create -f gstatsMCMC.yml`
 ### To activate:
-conda activate `gstatsMCMC`
+`conda activate gstatsMCMC`
 
 
 ## Usage:
