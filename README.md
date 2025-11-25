@@ -14,10 +14,6 @@ The bed topography under the Antarctic ice sheet is largely unknown. By creating
 
 The ice velocity magnitude of Tussebreen with vector field overlay. The grounding line can be seen (black).
 
-<img width="432" height="451" alt="0 (1)" src="https://github.com/user-attachments/assets/2e2e6d9f-3280-498b-929b-ba041736cff4" />
-
-The Bedmachine simulated bed elevation of Tussebreen. The grounding line can be seen (black).
-
 The MCMC simulated bed elevation of Tussebreen. The grounding line can be seen (black).
 
 The MCMC mass flux residual (left) and the Bedmachine mass flux residual (right). The grounding line can be seen (black).
