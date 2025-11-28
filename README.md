@@ -13,13 +13,26 @@ The bed topography under the Antarctic ice sheet is largely unknown. By creating
 <img width="509" height="252" alt="0" src="https://github.com/user-attachments/assets/b0a984a0-24b1-4311-be58-089d1ea36802" />
 
 The ice velocity magnitude of Tussebreen with vector field overlay. The grounding line can be seen (black).
+<img width="432" height="451" alt="MCMCBedElevation (1)" src="https://github.com/user-attachments/assets/895d5fcf-962b-4654-b02b-9e7d21b30606" />
 
 The MCMC simulated bed elevation of Tussebreen. The grounding line can be seen (black).
 
+<img width="380" height="380" alt="MCMCMassFlux" src="https://github.com/user-attachments/assets/bf96cca2-ec2a-4d7d-b3c6-9d71d6828561" />
+<img width="380" height="380" alt="BedMachineMassFlux" src="https://github.com/user-attachments/assets/02164e01-e733-44cb-a32e-f587f8813a9d" />
+
 The MCMC mass flux residual (left) and the Bedmachine mass flux residual (right). The grounding line can be seen (black).
 
+<img width="301" height="230" alt="MCMCvBedMachineLoss" src="https://github.com/user-attachments/assets/387905b2-fea4-42f1-beda-18a77a0fa48d" />
+
+The final Loss of MCMC versus the BedMachine loss. MCMC's loss is less then BedMachines making it more physcially accurate. 
+
+<img width="432" height="288" alt="Research poster" src="https://github.com/user-attachments/assets/385a01da-9ebd-472d-82f3-b45939ee8f56" />
+
+The research poster.
+
 ## Environment:
-A conda environment was used in conjunction with the `gstatsMCMC.yml` file. 
+A conda environment was used in conjunction with the `gstatsMCMC.yml` file.
+
 
 ### To make the new enviroment:
 `conda env create -f gstatsMCMC.yml`
